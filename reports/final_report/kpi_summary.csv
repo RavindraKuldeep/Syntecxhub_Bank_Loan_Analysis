@@ -1,0 +1,15 @@
+KPI,Value
+Total Loan Applications,38576.0
+Total Funded Amount,435757075.0
+Total Amount Received,473070933.0
+Average Loan Amount,11296.066855039402
+Average Interest Rate,0.12048831397760268
+Average DTI,0.13327433119037743
+Good Loan Applications,33243.0
+Good Loan Percentage,0.8617534218166736
+Good Loan Funded Amount,370224850.0
+Good Loan Amount Received,435786170.0
+Bad Loan Applications,5333.0
+Bad Loan Percentage,0.13824657818332642
+Bad Loan Funded Amount,65532225.0
+Bad Loan Amount Received,37284763.0

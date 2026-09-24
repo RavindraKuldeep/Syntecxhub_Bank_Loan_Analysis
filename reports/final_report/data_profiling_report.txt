@@ -1,0 +1,104 @@
+BANK LOAN DATA PROFILING REPORT
+======================================================================
+
+Rows: 38,576
+Columns: 24
+
+COLUMN NAMES
+----------------------------------------------------------------------
+id
+address_state
+application_type
+emp_length
+emp_title
+grade
+home_ownership
+issue_date
+last_credit_pull_date
+last_payment_date
+loan_status
+next_payment_date
+member_id
+purpose
+sub_grade
+term
+verification_status
+annual_income
+dti
+installment
+int_rate
+loan_amount
+total_acc
+total_payment
+
+DATA TYPES
+----------------------------------------------------------------------
+id                         int64
+address_state                str
+application_type             str
+emp_length                   str
+emp_title                    str
+grade                        str
+home_ownership               str
+issue_date                   str
+last_credit_pull_date        str
+last_payment_date            str
+loan_status                  str
+next_payment_date            str
+member_id                  int64
+purpose                      str
+sub_grade                    str
+term                         str
+verification_status          str
+annual_income            float64
+dti                      float64
+installment              float64
+int_rate                 float64
+loan_amount                int64
+total_acc                  int64
+total_payment              int64
+
+MISSING VALUES
+----------------------------------------------------------------------
+               Column  Missing_Count  Missing_Percentage
+                   id              0                0.00
+        address_state              0                0.00
+     application_type              0                0.00
+           emp_length              0                0.00
+            emp_title           1438                3.73
+                grade              0                0.00
+       home_ownership              0                0.00
+           issue_date              0                0.00
+last_credit_pull_date              0                0.00
+    last_payment_date              0                0.00
+          loan_status              0                0.00
+    next_payment_date              0                0.00
+            member_id              0                0.00
+              purpose              0                0.00
+            sub_grade              0                0.00
+                 term              0                0.00
+  verification_status              0                0.00
+        annual_income              0                0.00
+                  dti              0                0.00
+          installment              0                0.00
+             int_rate              0                0.00
+          loan_amount              0                0.00
+            total_acc              0                0.00
+        total_payment              0                0.00
+
+DUPLICATE ROWS
+----------------------------------------------------------------------
+0
+
+NUMERICAL SUMMARY
+----------------------------------------------------------------------
+                 count           mean            std         min          25%          50%           75%           max
+id             38576.0  681037.061385  211324.578218  54734.0000  513517.0000  662728.0000  8.365060e+05  1.077501e+06
+member_id      38576.0  847651.506299  266810.456860  70699.0000  662978.7500  847356.5000  1.045652e+06  1.314167e+06
+annual_income  38576.0   69644.540310   64293.681045   4000.0000   41500.0000   60000.0000  8.320050e+04  6.000000e+06
+dti            38576.0       0.133274       0.066662      0.0000       0.0821       0.1342  1.859000e-01  2.999000e-01
+installment    38576.0     326.862965     209.092000     15.6900     168.4500     283.0450  4.344425e+02  1.305190e+03
+int_rate       38576.0       0.120488       0.037164      0.0542       0.0932       0.1186  1.459000e-01  2.459000e-01
+loan_amount    38576.0   11296.066855    7460.746022    500.0000    5500.0000   10000.0000  1.500000e+04  3.500000e+04
+total_acc      38576.0      22.132544      11.392282      2.0000      14.0000      20.0000  2.900000e+01  9.000000e+01
+total_payment  38576.0   12263.348533    9051.104777     34.0000    5633.0000   10042.0000  1.665800e+04  5.856400e+04
